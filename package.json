@@ -1,0 +1,20 @@
+{
+  "name": "testing-playwright-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "cucumber-js --require setup.js --require ./step-definitions/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "chai": "^4.3.6",
+    "playwright": "^1.27.1"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "@types/node": "^18.8.5"
+  }
+}

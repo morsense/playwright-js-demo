@@ -9,3 +9,9 @@ Staps to run this demo testing setup:
 4. Start tests using `npm test`
 
 If your front end app is running on other port than `3301`, please update that in `setup.js` file.
+
+Pending action items:
+1. Add eslint
+2. Add support for Page object model design pattern
+3. support mocking of API's
+4. Generate Reports
